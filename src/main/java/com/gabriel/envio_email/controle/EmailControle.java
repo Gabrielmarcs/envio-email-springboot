@@ -7,6 +7,7 @@ import com.gabriel.envio_email.servico.EmailServico;
 
 @RestController
 @RequestMapping("/email")
+@CrossOrigin(origins = "*")
 public class EmailControle {
     
     @Autowired
